@@ -1,9 +1,6 @@
 {
-  "build": {
-    "env": {
-      "NODE_OPTIONS": "--openssl-legacy-provider"
-    }
-  },
+  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+  "framework": "gatsby",
   "headers": [
     {
       "source": "/(.*)",
